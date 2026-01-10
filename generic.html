@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Michael Evans | Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+		<!-- Favicon (rocket icon) -->
+		<link rel="icon" type="image/png" href="images/RocketShip.png" />
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Michael Evans</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="generic.html">Projects</a></li>
+					<li><a href="extracurriculars.html">Extracurriculars</a></li>
+					<li><a href="elements.html">About / Notes</a></li>
+				</ul>
+				<ul class="icons">
+					<li>
+						<a href="https://www.linkedin.com/in/michaelevans-meche/" class="icon brands fa-linkedin" target="_blank" rel="noopener">
+							<span class="label">LinkedIn</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<section class="post">
+					<header class="major">
+						<span class="date">Engineering Work</span>
+						<h1>Projects</h1>
+						<p>
+							Deeper technical summaries of selected projects, focusing on decisions made, engineering tradeoffs,
+							and what was learned through iteration.
+						</p>
+					</header>
+
+					<h2 id="avian">Real-Time Avian Radar Interface Concept (L’SPACE NPWEE)</h2>
+					<div class="image main">
+						<img src="images/Avian.jpg" alt="Avian awareness display concept for real-time radar interface" />
+					</div>
+					<p>
+						This project explored a concept for a real-time avian radar interface to improve airspace awareness and safety.
+						The work emphasized clear visualization, usability under time pressure, and practical integration with existing
+						aviation workflows.
+					</p>
+					<h3>Engineering Focus</h3>
+					<ul>
+						<li>System-level thinking: what information matters, when it matters, and how it should be presented</li>
+						<li>Human-centered design: readability, cognitive load, and reducing ambiguity in alerts</li>
+						<li>Integration mindset: working within constraints of existing tools and procedures</li>
+					</ul>
+					<h3>What I Contributed</h3>
+					<ul>
+						<li>Supported proposal-style documentation and iteration based on feedback</li>
+						<li>Helped refine requirements and how the interface should communicate risk and urgency</li>
+						<li>Worked in a structured review environment with deadlines and formatting constraints</li>
+					</ul>
+
+					<hr />
+
+					<h2 id="turret">Color-Tracking Turret System</h2>
+					<div class="image main">
+						<img src="images/Turret.JPG" alt="Color-tracking turret prototype with stepper motor" />
+					</div>
+					<p>
+						A mechatronics build designed to detect and track targets based on color, then fire once a reliable lock is achieved.
+						The main challenge was turning noisy sensing into stable behavior and controllable motion.
+					</p>
+					<h3>Technical Approach</h3>
+					<ul>
+						<li>Sensing + logic: detect target color and define “lock” criteria to avoid false triggers</li>
+						<li>Actuation: position control to track target location smoothly</li>
+						<li>System behavior: tune responsiveness vs stability (avoid oscillation and overshoot)</li>
+					</ul>
+					<h3>Key Design Decisions</h3>
+					<ul>
+						<li>Chose simple, reliable lock conditions before firing (robustness > sensitivity)</li>
+						<li>Separated detection from actuation control to keep tuning manageable</li>
+						<li>Focused on repeatable behavior rather than “one perfect run”</li>
+					</ul>
+
+					<hr />
+
+					<h2 id="bandage">Bandage Peeling Robot & Adhesion</h2>
+					<div class="image main">
+						<img src="images/RoboArm.jpg" alt="Prototype hardware for bandage peeling robot" />
+					</div>
+					<p>
+						A research-driven concept focused on adhesion and peel mechanics for a bandage-peeling robot. The goal is to better
+						understand how peel force changes with geometry, speed, and material behavior, and then use that understanding to
+						control motion profiles that reduce discomfort.
+					</p>
+					<h3>Technical Focus</h3>
+					<ul>
+						<li>Peel mechanics: connecting model intuition to what a robot can actually control (speed, angle, force)</li>
+						<li>Modeling ideas: exploring frameworks such as JKR and cohesive-zone concepts</li>
+						<li>Design mindset: creating a concept that can produce useful data, not just a one-off demo</li>
+					</ul>
+					<h3>Next Steps</h3>
+					<ul>
+						<li>Define measurable experiments and what “good peel” looks like (low peak force, smooth force profile)</li>
+						<li>Develop repeatable test procedures and identify the most sensitive variables</li>
+						<li>Iterate hardware and control based on results</li>
+					</ul>
+
+					<hr />
+
+					<h2 id="laptop">Adjustable Laptop Stand: Structural Analysis</h2>
+					<div class="image main">
+						<img src="images/Laptop.png" alt="CAD rendering of adjustable laptop stand" />
+					</div>
+					<p>
+						A mechanical design project centered on creating a stable, adjustable laptop stand that safely supports a heavy load
+						at multiple angles. The work emphasized mechanical reasoning: load paths, stability, and practical sizing checks.
+					</p>
+					<h3>Analysis & Checks</h3>
+					<ul>
+						<li>Stability: overturning moments and worst-case loading angles</li>
+						<li>Strength: stress checks and sizing for critical components (pins/joints)</li>
+						<li>Failure modes: Von Mises stress, buckling considerations, and fatigue awareness</li>
+					</ul>
+					<h3>Design Outcome</h3>
+					<ul>
+						<li>Selected geometry and joint sizing based on conservative loads</li>
+						<li>Focused on robustness across multiple configurations, not just one “best” position</li>
+					</ul>
+
+					<hr />
+
+					<h2 id="labs">Instrumentation & Experimental Methods (Rutgers Labs)</h2>
+					<div class="image main">
+						<img src="images/Labs.png" alt="Laboratory instrumentation and manometer" />
+					</div>
+					<p>
+						Completed multiple measurement labs involving strain, pressure/flow, and data acquisition. The emphasis was on
+						calibration, uncertainty, and using real data to support engineering conclusions.
+					</p>
+					<h3>Core Skills Practiced</h3>
+					<ul>
+						<li>Calibration and curve fitting with attention to error sources</li>
+						<li>Uncertainty analysis and propagation</li>
+						<li>DAQ workflows and experimental procedure discipline</li>
+					</ul>
+
+				</section>
+
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<section class="split contact">
+					<section class="alt">
+						<h3>Address</h3>
+						<p>Clifton, NJ<br />
+							United States</p>
+					</section>
+					<section>
+						<h3>Phone</h3>
+						<p><a href="tel:18626869580">(862) 686-9580</a></p>
+					</section>
+					<section>
+						<h3>Email</h3>
+						<p><a href="mailto:mikeevans1677@gmail.com">mikeevans1677@gmail.com</a></p>
+					</section>
+					<section>
+						<h3>Social</h3>
+						<ul class="icons alt">
+							<li>
+								<a href="https://www.linkedin.com/in/michaelevans-meche/" class="icon brands alt fa-linkedin" target="_blank" rel="noopener">
+									<span class="label">LinkedIn</span>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</section>
+			</footer>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul><li>&copy; Michael Evans</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
